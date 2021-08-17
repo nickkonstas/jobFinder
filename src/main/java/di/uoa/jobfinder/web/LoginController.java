@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class LoginController {
     @GetMapping(value = "/login")
-    public String login() {
+    public String loginView() {
         return "login";
     }
 
